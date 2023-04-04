@@ -48,5 +48,39 @@ body#main{
     background-color: #FAEBD7;
     background-size: cover;
 }
+main{
+    min-height: calc(100vh-8rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main section.img{
+    display:flex;
+    height: 100%;
+    margin-left: 4rem;
+    margin-top: 3.5rem;
+}
 
-    
+.img picture{
+    width: 30%;
+    align-items: center;
+}
+
+.img article{
+    width: 70%;
+    padding: 10%;
+    justify-content: center;
+    color:#432109;
+}
+h2{
+    margin-left: 17rem;
+    justify-content: center;
+}
+
+body#ler{
+    background-color: #FAEBD7;
+    background-size: cover;
+}
+a:hover {
+    color: #FFF;
+   }
