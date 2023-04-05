@@ -1,26 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
-*{
-    border:0;
-    margin:0;
-    outline:0;
+
+* {
+    border: 0;
+    margin: 0;
+    outline: 0;
     box-sizing: border-box;
     font-family: 'Libre Baskerville', 'sans-serif';
     font-weight: 400;
-   
+
 }
 
-header{
+header {
     padding: 5px 0;
     height: 4rem;
     background-color: tan;
     display: flex;
     justify-content: space-between;
 }
-header img{
+
+header img {
     height: 100%;
     margin-left: 1rem;
 }
-header nav{
+
+header nav {
     list-style: none;
     display: flex;
     align-items: center;
@@ -28,59 +31,121 @@ header nav{
     height: 100%;
 
 }
-header nav a{
+
+header nav a {
     margin-right: 15px;
     color: #432109;
     text-decoration: none;
 }
+
 footer {
-    background-color: tan ;
+    background-color: tan;
     height: 2rem;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
-footer img{
+
+footer img {
     height: 100%;
     padding: 0.3rem;
 }
-body#main{
+
+body#main {
     background-color: #FAEBD7;
     background-size: cover;
 }
-main{
-    min-height: calc(100vh-8rem);
+
+main {
+    min-height: calc(100vh - 8rem);
     display: flex;
     justify-content: center;
     align-items: center;
 }
-main section.img{
-    display:flex;
+
+main section.img {
+    display: flex;
     height: 100%;
     margin-left: 4rem;
     margin-top: 3.5rem;
 }
 
-.img picture{
+.img picture {
     width: 30%;
     align-items: center;
 }
 
-.img article{
+.img article {
     width: 70%;
     padding: 10%;
     justify-content: center;
-    color:#432109;
+    color: #432109;
+    font-size: large;
 }
-h2{
-    margin-left: 17rem;
+
+h2 {
+    margin-left: 16rem;
     justify-content: center;
 }
 
-body#ler{
+body#ler {
     background-color: #FAEBD7;
     background-size: cover;
 }
+
 a:hover {
     color: #FFF;
-   }
+}
+
+
+
+main.flexbox article {
+    background-color: tan;
+    margin: 1rem;
+    padding: 2rem;
+    height: 100%;
+}
+
+header.usuarioj {
+    height: 4rem;
+    justify-content: left;
+    align-items: center;
+}
+
+header.usuarioj img {
+    height: 100%;
+    margin-left: 1rem;
+    padding: 0.8rem;
+    justify-content: center;
+}
+
+header.usuariol {
+    height: 4rem;
+    justify-content: left;
+    align-items: center;
+}
+
+header.usuariol img {
+    height: 100%;
+    margin-left: 1rem;
+    padding: 0.8rem;
+    justify-content: center;
+}
+
+#sectionler {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+}
+
+#sectionler article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.estrelas {
+    width: 2rem;
+}
