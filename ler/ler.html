@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../css/estilo.css" rel="stylesheet" />
+    <link href="../css/menu.css" rel="stylesheet" />
+    <link href="../css/responsivo.css" rel="stylesheet" />
     <title>ler</title>
 </head>
 
@@ -15,19 +17,25 @@
             <img src="../img/image 1.svg" />
         </picture>
         <img src="../img/image 6.png" />
-        <nav>
-            <a href="../index.html">Página inicial</a>
-            <a href="./ler.html">Ler</a>
-            <a href="#">Entrar</a>
-            <a href="#">Cadastrar</a>
+        <nav class="menu">
+            <input type="checkbox" class="menu-faketrigger" />
+            <div class="menuburguer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li><a href="../index.html">Página inicial</a></li>
+                <li><a href="../ler/ler.html">Ler</a></li>
+                <li><a href="#">Entrar</a></li>
+                <li><a href="#">Cadastrar</a></li>
+            </ul>
         </nav>
     </header>
 
-
-
     <main class="flexbox">
         <section id="sectionler">
-            <article>
+            <article id="rv">
                 <div class="conta">
                     <header class="usuarioj">
                         <img src="../img/image 10.png" alt="foto do usuário">
@@ -45,7 +53,7 @@
                 <img src="../img/image 9.png" class="estrelas" alt="notas">
             </article>
 
-            <article>
+            <article id="rv">
                 <div class="conta2">
                     <header class="usuariol">
                         <img src="../img/image 12.png" alt="foto do usuário">
@@ -58,17 +66,15 @@
                 </p>
                 <img src="../img/image 18.png" alt="foto ilustrando um café gelado">
                 <img src="../img/image 13.png" class="estrelas" alt="notas">
-
             </article>
-
         </section>
 
     </main>
 
     <footer>
-        <img src="../img/image 3.png" alt="instagram">
-        <img src="../img/image 4.png" alt="facebook">
-        <img src="../img/image 5.png" alt="whatsapp">
+        <a href="https://www.instagram.com/" target="_blank"><img src="../img/image 3.png" alt="instagram"></a>
+        <a href="https://www.facebook.com/" target="_blank"><img src="../img/image 4.png" alt="facebook"></a>
+        <a href="https://www.whatsapp.com/" target="_blank"><img src="../img/image 5.png" alt="whatsapp"></a>
     </footer>
 
 </body>

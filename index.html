@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>coffee review</title>
     <link href="css/estilo.css" rel="stylesheet" />
     <link href="./css/responsivo.css" rel="stylesheet" />
     <link href="./css/menu.css" rel="stylesheet" />
+    <title>coffee review</title>
 </head>
 
 <body id="main">
@@ -17,18 +17,22 @@
             <img src="img/image 1.svg" />
         </picture>
         <img src="img/image 6.png" />
-        <nav>
-            <a href="#">Página inicial</a>
-            <a href="ler/ler.html">Ler</a>
-            <a href="#">Entrar</a>
-            <a href="#">Cadastrar</a>
+        <nav class="menu">
+            <input type="checkbox" class="menu-faketrigger" />
+            <div class="menuburguer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li><a href="../figma/index.html">Página inicial</a></li>
+                <li><a href="../figma/ler/ler.html">Ler</a></li>
+                <li><a href="#">Entrar</a></li>
+                <li><a href="#">Cadastrar</a></li>
+            </ul>
         </nav>
     </header>
-    <footer>
-        <img src="img/image 3.png" alt="instagram">
-        <img src="img/image 4.png" alt="facebook">
-        <img src="img/image 5.png" alt="whatsapp">
-    </footer>
+
     <main class="main">
         <section class="img">
             <picture><img src="./img/image 8.png" alt="Café ilustrativo" /></picture>
@@ -40,20 +44,13 @@
                     sul
                     mineira. Faça um bom proveito e escolha o lugar que atenderá às suas expectativas. </h1>
             </article>
-
         </section>
-        <nav>
-            <input id="menu-toggle" type="checkbox" />
-            <label for="menu-toggle">
-                <div class="menu-hamburguer">
-                    <span class="hamburguer"></span>
-                </div>
-            </label>
-        </nav>
-        <ul>
 
-
+        <footer>
+            <a href="https://www.instagram.com/" target="_blank"><img src="img/image 3.png" alt="instagram"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="img/image 4.png" alt="facebook"></a>
+            <a href="https://www.whatsapp.com/" target="_blank"><img src="img/image 5.png" alt="whatsapp"></a>
+        </footer>
     </main>
 </body>
-
 </html>
