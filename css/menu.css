@@ -1,4 +1,4 @@
-.menu .menuburguer{
+.menu .menuburguer {
     position: absolute;
     z-index: 999;
     width: 35px;
@@ -8,13 +8,13 @@
 }
 
 
-.menu{
+.menu {
     margin-right: 30px;
     margin-top: 30px;
 }
 
 
-.menu .menu-faketrigger{
+.menu .menu-faketrigger {
     position: absolute;
     z-index: 1000;
     width: 35px;
@@ -28,7 +28,7 @@
 
 
 
-.menu .menuburguer span{
+.menu .menuburguer span {
     display: block;
     width: 35px;
     height: 5px;
@@ -39,25 +39,26 @@
 }
 
 
-.menu .menu-faketrigger:checked ~ menu.menuburguer span{
+.menu .menu-faketrigger:checked~menu.menuburguer span {
     background-color: #432109;
 }
 
 
-.menu .menu-faketrigger:checked ~ .menuburguer span:nth-child(1){
-transform-origin: 0% 100%;
-transform: rotate(45deg) scaleX(1.25);
+.menu .menu-faketrigger:checked~.menuburguer span:nth-child(1) {
+    transform-origin: 0% 100%;
+    transform: rotate(45deg) scaleX(1.25);
 }
-.menu .menu-faketrigger:checked ~ .menuburguer span:nth-child(2){
+
+.menu .menu-faketrigger:checked~.menuburguer span:nth-child(2) {
     opacity: 0;
 }
-.menu .menu-faketrigger:checked ~ .menuburguer span:nth-child(3){
+
+.menu .menu-faketrigger:checked~.menuburguer span:nth-child(3) {
     transform-origin: 0% 0%;
     transform: rotate(-45deg) scaleX(1.25);
 }
 
-
-.menu ul{
+.menu ul {
     position: absolute;
     z-index: 998;
     right: 0;
@@ -70,24 +71,24 @@ transform: rotate(45deg) scaleX(1.25);
     transition: all ease 1.5s;
 }
 
-
-.menu .menu-faketrigger:checked ~ ul{
+.menu .menu-faketrigger:checked~ul {
     margin-right: 0;
 }
-.menu ul li{
+
+.menu ul li {
     padding: 10px 30px;
 }
 
-.menu ul li:hover{
+.menu ul li:hover {
     background-color: #ededed;
 }
 
 .menu ul li a {
     text-decoration: none;
-    color:#432109;
+    color: #432109;
     font-size: 22px;
 }
-.menu ul li a:hoover{
-    color:#fff;
-}
 
+.menu ul li a:hoover {
+    color: #fff;
+}

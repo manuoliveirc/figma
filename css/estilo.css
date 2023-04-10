@@ -97,8 +97,6 @@ a:hover {
     color: #FFF;
 }
 
-
-
 main.flexbox article {
     background-color: tan;
     margin: 1rem;
@@ -149,4 +147,3 @@ header.usuariol img {
 .estrelas {
     width: 2rem;
 }
-
